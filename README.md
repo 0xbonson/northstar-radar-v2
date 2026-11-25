@@ -27,3 +27,7 @@ MAKEFUN_OUTPUT_DIR=out node main.ts --input /path/to/snapshot.json
 - **Value formula**: `log(val) = 16.473 + 0.485*ln(TVL/$50M) + (-0.186)*mom_7d + (-0.271)*ln(1+age_yr) + cat_offset`
 - **Selected split**: Balanced 50/50 slug-alternating half-split (`64` train / `64` held-out), achieving held-out Spearman `rho = 0.478` and median relative error `87.7%` (preferred over the older-to-younger split at `rho = 0.293`, `92.9%` median error)
 
+
+[![make.fun · token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![rank](https://make.fun/badge/token-radar-01/0xbonson/northstar-radar-v2/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![reward](https://make.fun/badge/token-radar-01/0xbonson/northstar-radar-v2/reward.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
